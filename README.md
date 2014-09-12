@@ -1,5 +1,6 @@
 OMDComputer
 ===========
-
-Var är båten?
-vilken jävla båt?
+frågor
+------
+3. "OS" och "programs".
+4. vettefan.
