@@ -2,10 +2,10 @@ OMDComputer
 ===========
 deltagare
 -----
-* Ic
-* LO^2
-* E-rik
-* tim^2
+<br/> Ic
+<br/> LO^2
+<br/> E-rik
+<br/> tim^2
 frågor
 ------
 1. -
