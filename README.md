@@ -8,9 +8,9 @@ deltagare
 <br/> tim^2
 frågor
 ------
-1. -
+1. Command, superjump, word, arithmeticOp
 2. "ArrayList"
-3. "OS" för själva operativsystemet och "programs" för defaultprogrammen på datorn.
+3. "OS" för själva operativsystemet och commands för commands och dess operationer
 4. command mönstret bör användas till kommandon för att delegera execute till den individuella klassen.
 5. "mul" och "add" är mycket lika varandra så de kan ärva från en gemensam abstrakt superklass "ArithmaticOP", samma är sant för "Jump" och "JumpEQ" som får ärva från "SuperJump".
 6. Låt dem implementera ett gemensamt interface.
