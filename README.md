@@ -6,6 +6,30 @@ deltagare
 <br/> LO^2
 <br/> E-rik
 <br/> tim^2
+
+Vem som ska göra vad
+===================
+LO^2:
+Operand
+Address
+Word
+LongWord
+
+Tim^2:
+Program
+Computer
+Memory
+LongMemory
+
+Ic:
+SuperJump
+
+E Rik:
+ArithmaticOP
+
+Ic och E Rik får kommunicera när de är klara med de klasserna och göra resten av commandsen och Command.
+
+
 frågor
 ------
 1. -
