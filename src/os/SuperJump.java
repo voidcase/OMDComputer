@@ -1,7 +1,5 @@
 package os;
 
 public abstract class SuperJump implements Command{
-	public void execute(Memory m, int pc){
-		//TODO
-	}
+	public abstract void execute(Memory m, ProgramCounter pc);
 }
