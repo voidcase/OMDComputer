@@ -2,8 +2,7 @@ public abstract class ArithmeticOp implements Command {
 	protected Operand m1, m2;
 	protected Address m3;
 
-	protected LongWord implementation (Operand first, Operand second) {
-		return null;	
+	protected abstract LongWord implementation (Operand first, Operand second) {	
 	}
 	
 	public void execute(Memory m, ProgramCounter pc) {
