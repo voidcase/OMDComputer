@@ -10,4 +10,6 @@ public interface Word extends Operand {
 	public Word mul(Word word);
 	
 	public void setValue(Word word);
+	
+	public String toString();
 }

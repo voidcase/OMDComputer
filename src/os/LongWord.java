@@ -13,9 +13,7 @@ public class LongWord implements Word {
 	}
 	
 	public Word getWord(Memory memory) {
-		//TODO: Implement
-		//memory.vad?
-		return null;
+		return this;
 	}
 	
 	@Override
@@ -39,5 +37,10 @@ public class LongWord implements Word {
 	public void setValue(Word word) {
 		LongWord lw = (LongWord) word;
 		number = lw.getValue();
+	}
+	
+	public String toString() {
+		String string = String.valueOf(number);
+		return string;
 	}
 }
