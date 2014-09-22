@@ -6,7 +6,7 @@ public class Jump extends SuperJump{
 		// TODO Auto-generated constructor stub
 	}
 
-	public void execute(Memory m, ProgramCounter pc){
-		pc.jumpTo(destination);
+	public int execute(Memory m, int pc){
+		return destination;
 	}
 }

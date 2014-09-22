@@ -11,9 +11,12 @@ public class JumpEq extends SuperJump{
 	}
 	
 	@Override
-	public void execute(Memory m, ProgramCounter pc) {
+	public int execute(Memory m, int pc) {
 		if (term1.getWord(m).equals(term2.getWord(m))){
-			pc.jumpTo(destination);
+			return destination;
+		}
+		else{
+			return pc+1;
 		}
 	}
 }
