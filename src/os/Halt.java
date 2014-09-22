@@ -6,5 +6,7 @@ public class Halt implements Command{
 	public int execute(Memory m, int pc) {
 		return -1;
 	}
-
+	public String toString(){
+		return "HLT";
+	}
 }

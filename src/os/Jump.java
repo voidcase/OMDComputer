@@ -9,4 +9,8 @@ public class Jump extends SuperJump{
 	public int execute(Memory m, int pc){
 		return destination;
 	}
+	
+	public String toString(){
+		return "JMP";
+	}
 }

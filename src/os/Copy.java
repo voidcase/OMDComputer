@@ -16,4 +16,7 @@ public class Copy implements Command{
 		m.edit(w, destination);
 		return pc+1;
 	}
+	public String toString(){
+		return "CPY";
+	}
 }

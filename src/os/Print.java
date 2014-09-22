@@ -13,5 +13,7 @@ public class Print implements Command{
 		System.out.print(message.getWord(m));	//TODO om bara getWord kunde ha en getValue av något slag.
 		return pc+1;
 	}
-
+	public String toString(){
+		return "PRT";
+	}
 }

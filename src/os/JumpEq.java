@@ -19,4 +19,7 @@ public class JumpEq extends SuperJump{
 			return pc+1;
 		}
 	}
+	public String toString(){
+		return "JEQ";
+	}
 }

@@ -7,7 +7,7 @@ public class Add extends ArithmeticOp{
 	}
 
 	@Override
-	protected String nameOf() {
+	protected String nameOf() {		//ska inte detta vara en toString?
 		return("ADD");
 	}
 
