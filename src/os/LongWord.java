@@ -15,7 +15,7 @@ public class LongWord implements Word {
 	public Word getWord(Memory memory) {
 		//TODO: Implement
 		//memory.vad?
-		return null;
+		return this;	//kan ej returna null för då blir det helt fuckat och sånt. -isak
 	}
 	
 	@Override
