@@ -1,9 +1,10 @@
+package os;
+
 public abstract class ArithmeticOp implements Command {
 	protected Operand m1, m2;
 	protected Address m3;
 
-	protected abstract LongWord ArithmaticOp (Operand first, Operand second) {	
-	}
+	protected abstract LongWord ArithmaticOp (Operand first, Operand second);
 	
 	public void execute(Memory m, ProgramCounter pc) {
 		m.edit(ArithmaticOp(m1.getWord(m), m2.getWord(m)), m3);

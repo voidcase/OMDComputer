@@ -16,5 +16,4 @@ public class JumpEq extends SuperJump{
 			pc.jumpTo(destination);
 		}
 	}
-
 }

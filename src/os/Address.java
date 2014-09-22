@@ -3,7 +3,6 @@ package os;
 public class Address {
 	
 	private int index;
-	//ska address ha word?
 	private Word word;
 	
 	public Address(int index) {
@@ -19,5 +18,4 @@ public class Address {
 	public int getIndex() {
 		return index;
 	}
-
 }
