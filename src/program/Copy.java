@@ -1,6 +1,11 @@
-package os;
+package program;
 
-public class Copy implements Command{
+import os.Address;
+import os.Memory;
+import os.Operand;
+import os.Word;
+
+public class Copy extends Command{
 
 	Operand source;
 	Address destination;

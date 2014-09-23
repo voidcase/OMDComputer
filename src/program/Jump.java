@@ -1,4 +1,6 @@
-package os;
+package program;
+
+import os.Memory;
 
 public class Jump extends SuperJump{
 	public Jump(int d) {

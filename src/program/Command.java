@@ -1,7 +1,10 @@
-package os;
+package program;
+
+import os.Memory;
+import os.Operand;
 
 public abstract class Command {
-	public int execute(Memory m, int pc);
+	public abstract int execute(Memory m, int pc);
 
 	protected String nameOf();
 

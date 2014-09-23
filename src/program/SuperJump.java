@@ -1,6 +1,8 @@
-package os;
+package program;
 
-public abstract class SuperJump implements Command{
+import os.Memory;
+
+public abstract class SuperJump extends Command{
 	protected int destination;
 	public SuperJump(int d){
 		destination = d;

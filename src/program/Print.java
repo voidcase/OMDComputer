@@ -1,6 +1,9 @@
-package os;
+package program;
 
-public class Print implements Command{
+import os.Memory;
+import os.Operand;
+
+public class Print extends Command{
 	Operand message;
 	
 	public Print(Operand o){

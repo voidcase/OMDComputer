@@ -1,4 +1,9 @@
-package os;
+package program;
+
+import os.Address;
+import os.Memory;
+import os.Operand;
+import os.Word;
 
 public class Add extends ArithmeticOp{
 

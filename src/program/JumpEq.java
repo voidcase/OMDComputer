@@ -1,4 +1,7 @@
-package os;
+package program;
+
+import os.Memory;
+import os.Operand;
 
 public class JumpEq extends SuperJump{
 	

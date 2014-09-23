@@ -1,6 +1,11 @@
-package os;
+package program;
 
-public abstract class ArithmeticOp implements Command {
+import os.Address;
+import os.Memory;
+import os.Operand;
+import os.Word;
+
+public abstract class ArithmeticOp extends Command {
 	protected Operand m1, m2;
 	protected Address m3;
 

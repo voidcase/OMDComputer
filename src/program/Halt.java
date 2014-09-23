@@ -1,6 +1,8 @@
-package os;
+package program;
 
-public class Halt implements Command{
+import os.Memory;
+
+public class Halt extends Command{
 
 	@Override
 	public int execute(Memory m, int pc) {
