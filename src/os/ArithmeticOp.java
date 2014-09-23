@@ -6,17 +6,9 @@ public abstract class ArithmeticOp implements Command {
 
 	protected abstract String nameOf();
 	
-	public String toString() {
-		
-		StringBuilder tempS = new StringBuilder();
-		tempS.append(nameOf());
-		tempS.append("\t");
-		tempS.append(m1.toString());
-		tempS.append("\t");
-		tempS.append(m2.toString());
-		tempS.append("\t");
-		tempS.append(m3.toString());
-		return tempS.toString();
+	protected Operand[] listParams() {
+		Operand[] ops = {m1, m2, m3};
+		return ops;
 	}
 	
 	protected abstract Word ArithmaticOp (Operand first, Operand second, Memory m);
