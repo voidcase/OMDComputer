@@ -5,5 +5,5 @@ public abstract class SuperJump implements Command{
 	public SuperJump(int d){
 		destination = d;
 	}
-	public abstract void execute(Memory m, ProgramCounter pc);
+	public abstract int execute(Memory m, int pc);
 }
