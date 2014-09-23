@@ -9,7 +9,7 @@ public abstract class Memory {
 	}
 
 	public void edit(Word w, Address a) {
-		wordList[a.getIndex()].setValue(w.getValue());
+		wordList[a.getIndex()].setValue(w);
 	}
 
 	public Word getWord(int index){
