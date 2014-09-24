@@ -12,7 +12,7 @@ public abstract class ArithmeticOp extends Command {
 	protected abstract String nameOf();
 	
 	protected Operand[] listParams() {
-		Operand[] ops = {m1, m2, m3};
+		Operand[] ops = {m1, m2, (Operand) m3};
 		return ops;
 	}
 	

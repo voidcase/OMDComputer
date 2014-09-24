@@ -1,7 +1,7 @@
 package os;
 
-import Program.Command;
-import Program.Program;
+import program.Command;
+import program.Program;
 
 public class Computer {
 	private Memory memory;
@@ -24,7 +24,7 @@ public class Computer {
 		}
 
 		while (programCounter >= 0) {
-			programCounter = program.get(programCounter).execute(memory);
+			programCounter = program.get(programCounter).execute(memory,programCounter);
 		}
 
 	}

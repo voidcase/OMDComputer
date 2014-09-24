@@ -6,9 +6,9 @@ import os.Operand;
 public abstract class Command {
 	public abstract int execute(Memory m, int pc);
 
-	protected String nameOf();
+	protected abstract String nameOf();
 
-	protected Operand[] listParams();
+	protected abstract Operand[] listParams();
 
 	public String toString() {
 		StringBuilder tempS = new StringBuilder();

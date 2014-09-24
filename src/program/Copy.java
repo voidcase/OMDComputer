@@ -21,7 +21,17 @@ public class Copy extends Command{
 		m.edit(w, destination);
 		return pc+1;
 	}
-	public String toString(){
+	
+	@Override
+	protected String nameOf() {
+		// TODO Auto-generated method stub
 		return "CPY";
+	}
+
+	@Override
+	protected Operand[] listParams() {
+		// TODO Auto-generated method stub
+		Operand[] p = {source, (Operand) destination};
+		return p;
 	}
 }

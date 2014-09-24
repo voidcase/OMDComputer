@@ -1,5 +1,6 @@
 package program;
 
+import os.LongWord;
 import os.Memory;
 import os.Operand;
 
@@ -22,7 +23,20 @@ public class JumpEq extends SuperJump{
 			return pc+1;
 		}
 	}
-	public String toString(){
+
+	@Override
+	protected String nameOf() {
+		// TODO Auto-generated method stub
 		return "JEQ";
+	}
+
+	@Override
+	protected Operand[] listParams() {
+		// TODO Auto-generated method stub
+		Operand[] p = new Operand[3];
+		p[0] = term1;
+		p[1] = term2;
+		p[2] = new LongWord(destination);
+		return null;
 	}
 }
