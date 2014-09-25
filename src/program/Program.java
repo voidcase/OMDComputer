@@ -14,16 +14,10 @@ public abstract class Program extends ArrayList<Command>{
 	}
 	
 	public String toString(){
-		
 		StringBuilder sb = new StringBuilder();
-		
 		for(Command c: this){
 			sb.append(c.toString() + "\n");
 		}
-		
 		return sb.toString();
-		
 	}
-	
-
 }

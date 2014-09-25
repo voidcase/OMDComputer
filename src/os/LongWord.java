@@ -15,8 +15,7 @@ public class LongWord implements Word {
 	public Word getWord(Memory memory) {
 		return this;
 	}
-	
-	@Override
+
 	public Word add(Word word) {
 		LongWord lw = (LongWord) word;
 		long value = lw.getValue();
@@ -25,7 +24,6 @@ public class LongWord implements Word {
 		return newLW;
 	}
 
-	@Override
 	public Word mul(Word word) {
 		LongWord lw = (LongWord) word;
 		long value = lw.getValue();
@@ -35,8 +33,11 @@ public class LongWord implements Word {
 	}
 
 	public void setValue(Word word) {
+		//TODO: Remove debugging-stuff
+		System.out.println(number);
 		LongWord lw = (LongWord) word;
 		number = lw.getValue();
+		System.out.println(number);
 	}
 	
 	public String toString() {

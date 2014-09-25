@@ -1,6 +1,6 @@
 package os;
 
-public class Address {
+public class Address implements Operand {
 	
 	private int index;
 	

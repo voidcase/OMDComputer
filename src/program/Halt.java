@@ -11,12 +11,10 @@ public class Halt extends Command{
 	}
 	@Override
 	protected String nameOf() {
-		// TODO Auto-generated method stub
 		return "HLT";
 	}
 	@Override
 	protected Operand[] listParams() {
-		// TODO Auto-generated method stub
 		return new Operand[0];
-		}
 	}
+}
