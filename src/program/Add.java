@@ -17,7 +17,7 @@ public class Add extends ArithmeticOp{
 	}
 
 	@Override
-	protected Word ArithmaticOp(Operand first, Operand second, Memory m) {
+	protected Word arithmeticStrategy(Operand first, Operand second, Memory m) {
 		return first.getWord(m).add(second.getWord(m));
 	}
 

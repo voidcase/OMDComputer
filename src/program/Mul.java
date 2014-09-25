@@ -12,7 +12,7 @@ public class Mul extends ArithmeticOp {
 	}
 
 	@Override
-	protected Word ArithmaticOp(Operand first, Operand second, Memory m) {
+	protected Word arithmeticStrategy(Operand first, Operand second, Memory m) {
 		return first.getWord(m).mul(second.getWord(m));
 	}
 
