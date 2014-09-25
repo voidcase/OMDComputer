@@ -12,7 +12,7 @@ public class Print extends Command{
 	
 	@Override
 	public int execute(Memory m, int pc) {
-		System.out.print(message.getWord(m));	//TODO om bara getWord kunde ha en getValue av något slag.
+		System.out.print(message.getWord(m));
 		return pc+1;
 	}
 

@@ -33,15 +33,20 @@ public class LongWord implements Word {
 	}
 
 	public void setValue(Word word) {
-		//TODO: Remove debugging-stuff
-		System.out.println(number);
 		LongWord lw = (LongWord) word;
 		number = lw.getValue();
-		System.out.println(number);
 	}
 	
 	public String toString() {
 		String string = String.valueOf(number);
 		return string;
+	}
+	
+	public boolean equals(Object o) {
+		LongWord lw = (LongWord) o;
+		if (lw.getValue() == number) {
+			return true;
+		}
+		return false;
 	}
 }

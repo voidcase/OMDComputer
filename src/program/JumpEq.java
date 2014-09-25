@@ -32,9 +32,9 @@ public class JumpEq extends SuperJump{
 	@Override
 	protected Operand[] listParams() {
 		Operand[] p = new Operand[3];
-		p[0] = term1;
-		p[1] = term2;
-		p[2] = new LongWord(destination);
+		p[0] = new LongWord(destination);
+		p[1] = term1;
+		p[2] = term2;
 		return p;
 	}
 }

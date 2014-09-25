@@ -15,8 +15,10 @@ public abstract class Program extends ArrayList<Command>{
 	
 	public String toString(){
 		StringBuilder sb = new StringBuilder();
+		int i = 0;
 		for(Command c: this){
-			sb.append(c.toString() + "\n");
+			sb.append(i + "\t" + c.toString() + "\n");
+			i++;
 		}
 		return sb.toString();
 	}

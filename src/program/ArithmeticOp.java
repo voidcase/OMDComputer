@@ -20,7 +20,7 @@ public abstract class ArithmeticOp extends Command {
 	
 	public int execute(Memory m, int pc) {
 		m.edit(ArithmaticOp(m1.getWord(m), m2.getWord(m), m), m3);
-		return pc++;
+		return pc + 1;
 	}
 
 	public ArithmeticOp (Operand m1, Operand m2, Address m3) {

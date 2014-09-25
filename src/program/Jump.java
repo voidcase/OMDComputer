@@ -5,6 +5,7 @@ import os.Memory;
 import os.Operand;
 
 public class Jump extends SuperJump{
+	
 	public Jump(int d) {
 		super(d);
 	}
