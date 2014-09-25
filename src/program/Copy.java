@@ -7,8 +7,8 @@ import os.Word;
 
 public class Copy extends Command{
 
-	Operand source;
-	Address destination;
+	private Operand source;
+	private Address destination;
 	
 	public Copy(Operand o, Address a){
 		source = o;

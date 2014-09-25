@@ -4,7 +4,7 @@ import os.Memory;
 import os.Operand;
 
 public class Print extends Command{
-	Operand message;
+	private Operand message;
 	
 	public Print(Operand o){
 		message = o;
